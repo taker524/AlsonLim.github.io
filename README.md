@@ -8,4 +8,4 @@ Diploma, System Engineering & Management | Republic Polytechnic
 ### Limo Robot Navigation
 #### Overview
 The objective of this project was to enable the Limo Robot to autonomously navigate through various environments designed by our group and others. The robot had to determine and follow the correct route through different zones using mapping, localization, and path planning techniques.  
-logo: 
+![Limo Robot](https://AlsonLim.github.io/image/Limo.jpg)
