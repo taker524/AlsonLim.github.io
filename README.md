@@ -12,3 +12,4 @@ The objective of this project was to enable the Limo Robot to autonomously navig
 #### Limo Robot
 ![Limo Robot](image/Limo.jpg)
 
+#### Area Environment
