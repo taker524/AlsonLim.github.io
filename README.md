@@ -2,7 +2,7 @@
 
 
 ## Education
-Diploma, System Engineering & Management|Republic Polytechnic
+- Diploma, System Engineering & Management | Republic Polytechnic (_2021_)
 
 ## Project
 ### Limo Robot Navigation
