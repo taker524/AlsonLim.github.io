@@ -50,7 +50,7 @@ All software development was conducted primarily using Python, leveraging its st
 ![Whole Arena](image/Group Area.png)<br>
 In the arena, our group was assigned Plot 6, which measures 1330 mm (width) x 1500 mm (depth). We were tasked with designing an environment that not only offered visual appeal but also supported functional navigation for the Limo Robot. Our design was inspired by the Jewel Changi Airport's Canopy Park and the iconic Mastercard Canopy Bridge, both known for their lush greenery, immersive experiences, and suspended walkways.
 
-![Finished Arena](image/Group 6 Area.jpg)<br>
+![Finished Arena](image/Group 6 Arena.jpg)<br>
 Key features of our environment include:
 
 - Central Clear Pathway: The middle section of Plot 6 was deliberately kept flat and open using a wooden-tile-style floor to ensure the Limo Robot could traverse through without obstruction. This was essential to meet the robot navigation requirements and align with the central passageway of the arena's layout.
