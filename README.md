@@ -1,4 +1,4 @@
-# First-Year Robotic System Student in SIT
+# Portfoilo 
 
 
 <h2 align="left">Education</h2>
