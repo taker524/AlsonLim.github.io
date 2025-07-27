@@ -47,7 +47,7 @@ By combining real-time mapping, dynamic obstacle avoidance, route planning, and 
 
 All software development was conducted primarily using Python, leveraging its strong integration with ROS for sensor data processing, motion control, mapping, localization, route planning, obstacle avoidance, and clearance management.
 #### Area Environment
-![Whole Arena].(image/Group Area.png)<br>
+![Whole Arena](image/Group Area.png)<br>
 n the arena, our group was assigned Plot 6, which measures 1330 mm (width) x 1500 mm (depth). We were tasked with designing an environment that not only offered visual appeal but also supported functional navigation for the Limo Robot. Our design was inspired by the Jewel Changi Airport's Canopy Park and the iconic Mastercard Canopy Bridge, both known for their lush greenery, immersive experiences, and suspended walkways.
 
 Key features of our environment include:
