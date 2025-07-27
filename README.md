@@ -1,9 +1,9 @@
 # First-Year Robotic System Student in SIT
 
 
-<h2 align="center">Education</h2>
+<h2 align="left">Education</h2>
 
-<div align="center">
+<div align="left">
 
 <table>
   <tr>
