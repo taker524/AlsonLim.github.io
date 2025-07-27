@@ -47,3 +47,4 @@ By combining real-time mapping, dynamic obstacle avoidance, route planning, and 
 
 All software development was conducted primarily using Python, leveraging its strong integration with ROS for sensor data processing, motion control, mapping, localization, route planning, obstacle avoidance, and clearance management.
 #### Area Environment
+In the arena, our group was given the plot 6 of the whole arena which we susposed to design the environment which was inspired by Jewel Changi Airport's Canopy Park and Mastercard Canopy Bridge
