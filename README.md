@@ -47,4 +47,23 @@ By combining real-time mapping, dynamic obstacle avoidance, route planning, and 
 
 All software development was conducted primarily using Python, leveraging its strong integration with ROS for sensor data processing, motion control, mapping, localization, route planning, obstacle avoidance, and clearance management.
 #### Area Environment
-In the arena, our group was given the plot 6 of the whole arena which we susposed to design the environment which was inspired by Jewel Changi Airport's Canopy Park and Mastercard Canopy Bridge
+![Whole Arena].(image/Group Area.png)<br>
+n the arena, our group was assigned Plot 6, which measures 1330 mm (width) x 1500 mm (depth). We were tasked with designing an environment that not only offered visual appeal but also supported functional navigation for the Limo Robot. Our design was inspired by the Jewel Changi Airport's Canopy Park and the iconic Mastercard Canopy Bridge, both known for their lush greenery, immersive experiences, and suspended walkways.
+
+Key features of our environment include:
+
+- Central Clear Pathway: The middle section of Plot 6 was deliberately kept flat and open using a wooden-tile-style floor to ensure the Limo Robot could traverse through without obstruction. This was essential to meet the robot navigation requirements and align with the central passageway of the arena's layout.
+
+- Miniature Canopy Bridges: Suspended elements on both ends of the central path replicate the Mastercard Canopy Bridge. While visually prominent, these bridges were carefully positioned above the robot’s height limit to avoid interference with its movement or sensor readings.
+
+- Vertical Green Walls: Dense artificial greenery lined the borders of the plot, simulating a natural garden environment and guiding the robot visually and spatially.
+
+- Thematic Zones:
+
+  - A shaded rest area inspired by forest shelters, topped with a brown arched canopy.
+
+  - A stone-feature zone emulating natural seating spaces.
+
+  - Floral decorations to create a vibrant, nature-inspired ambiance.
+
+Throughout the design process, careful attention was given to spacing, obstacle height, and layout orientation to ensure smooth integration with RTAB-Map’s SLAM and ROS-based navigation. The final environment successfully blended aesthetic inspiration with robotic functional requirements, allowing the Limo Robot to autonomously map, localize, and navigate through the plot with real-time decision-making capabilities.
