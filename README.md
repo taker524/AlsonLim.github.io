@@ -52,11 +52,15 @@ To enable the robot to perceive and understand its surroundings, we implemented 
 
 - <strong>Navigation and Path Planning</strong><br>
 For autonomous movement, we integrated the ROS navigation stack, which leverages global and local costmaps to support path planning and obstacle avoidance:
+
   - <strong>Global costmap:</strong> Provides a broad, high-level overview of the environment, marking obstacles and free space across the entire mapped area. This enables strategic route planning, allowing the robot to find an optimal path from its current location to the goal.
+  - 
   - <strong>Local costmap:</strong> Focuses on the immediate surroundings of the robot and is updated in real time with sensor data (such as from LIDAR). It dynamically detects obstacles and supports reactive local avoidance maneuvers.
   A critical component of our navigation system is clearance management — the configuration of safe distances between the robot’s planned path and nearby walls or obstacles. Proper clearance settings ensure that the robot maintains a safe buffer, reducing collision risks and enabling smooth navigation even in narrow or cluttered spaces.
+
 - <strong>Obstacle Detection and Avoidance</strong><br>
 Using LIDAR sensors and the costmap framework, the robot can detect obstacles dynamically and adjust its path accordingly to avoid collisions, ensuring robust operation in changing environments.
+
 - <strong>Control and Command Handling</strong><br>
 The system supports both manual teleoperation and fully autonomous control modes, allowing seamless switching between human-driven commands and autonomous navigation via the ROS move_base node.
 
