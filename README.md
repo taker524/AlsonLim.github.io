@@ -31,7 +31,7 @@
 </div>
 
 ## Project
-### Limo Robot Navigation
+### - Limo Robot Navigation
 **Technical Skills**  
 - **Robot Platform:** AgileX LIMO Robot (4WD)  
 - **Middleware:** ROS1 Melodic, TF, roslaunch, rosbag, rqt_graph  
