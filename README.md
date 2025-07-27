@@ -2,8 +2,8 @@
 
 
 ## Education
-- Diploma, System Engineering & Management | Republic Polytechnic (_March 2023_)
-- Cerificate in Higher Nitec, Offshore & Marine Engineering Design | ITE Central (_March 2017_)
+- Diploma | System Engineering & Management | Republic Polytechnic (_March 2023_)
+- Cerificate in Higher Nitec | Offshore & Marine Engineering Design | ITE Central (_March 2017_)
 
 ## Project
 ### Limo Robot Navigation
