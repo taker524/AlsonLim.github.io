@@ -32,7 +32,15 @@
 
 ## Project
 ### Limo Robot Navigation
-Technical Skill: <strong>[ROS]</strong>  <strong>[Gazebo]</strong>  <strong>[Python]</strong>  <strong>[RtabMap]</strong> 
+**Technical Skills**  
+- **Robot Platform:** AgileX LIMO Robot (4WD)  
+- **Middleware:** ROS1 Melodic, TF, roslaunch, rosbag, rqt_graph  
+- **Languages:** Python  
+- **Simulation:** Gazebo, RViz  
+- **Mapping & Localization:** gmapping, rtabmap_ros, amcl  
+- **Navigation:** move_base, costmap_2d  
+- **Control:** cmd_vel, Teleop, Autonomous Path Planning  
+
 #### Overview
 The objective of this project was to enable the Limo Robot to autonomously navigate through various environments designed by our group and others. The robot had to determine and follow the correct route through different zones using mapping, localization, and path planning techniques.
 #### Limo Robot
