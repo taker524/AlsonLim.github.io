@@ -8,7 +8,7 @@
 <table>
   <tr>
     <th>Qualification</th>
-    <th>Specialisation</th>
+    <th>Course</th>
     <th>Institution</th>
   </tr>
     <tr>
