@@ -11,6 +11,11 @@
     <th>Specialisation</th>
     <th>Institution</th>
   </tr>
+    <tr>
+    <td>Bachelor's Degree</td>
+    <td>Robotic System</td>
+    <td>Singapore Insitution of Technology<br><em>(Currently Undergoing)</em></td>
+  </tr>
   <tr>
     <td>Diploma</td>
     <td>System Engineering & Management</td>
