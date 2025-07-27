@@ -31,7 +31,7 @@
 </div>
 
 ## Project
-###  Limo Robot Navigation
+###  Autonomous Indoor Navigation with AgileX LIMO Robot
 **Technical Skills**  
 - **Robot Platform:** AgileX LIMO Robot (4WD)  
 - **Middleware:** ROS1 Melodic, TF, roslaunch, rosbag, rqt_graph  
@@ -45,15 +45,24 @@
 The objective of this project was to enable the Limo Robot to autonomously navigate through various environments designed by our group and others. The robot had to determine and follow the correct route through different zones using mapping, localization, and path planning techniques.
 #### Limo Robot
 ![Limo Robot](image/Limo.jpg)<br>
-In this project, our group utilized the Limo robot as the main robotic platform to explore autonomous navigation in complex environments. To enable the robot to perceive and understand its surroundings, we implemented RTAB-Map (Real-Time Appearance-Based Mapping), a robust SLAM (Simultaneous Localization and Mapping) solution. RTAB-Map allowed the Limo robot to create and update detailed 3D maps of the environment in real time, facilitating accurate localization and environmental awareness.
+In this project, our group utilized the AgileX LIMO robot as the primary robotic platform to explore and implement autonomous navigation in complex indoor environments. The system centers on real-time perception, mapping, and motion planning to achieve reliable and safe robot navigation.
 
-For autonomous movement, we integrated the ROS navigation stack, which relies heavily on route planning supported by global and local costmaps. The global costmap provides a broad, high-level representation of obstacles and free space across the entire mapped area, enabling strategic route planning to find the optimal path from the robot’s current position to its goal.
+- Mapping and Localization
+To enable the robot to perceive and understand its surroundings, we implemented RTAB-Map (Real-Time Appearance-Based Mapping), a robust SLAM (Simultaneous Localization and Mapping) solution. RTAB-Map allows the LIMO robot to build and continuously update detailed 3D maps of its environment, facilitating accurate localization and environmental awareness. Localization is further enhanced using AMCL (Adaptive Monte Carlo Localization) to estimate the robot’s pose within the generated maps.
 
-The local costmap focuses on the immediate vicinity around the robot and dynamically incorporates sensor data to detect and avoid obstacles in real time. An important aspect of the navigation setup is the management of clearance—the safe spacing between the planned route and nearby walls or obstacles. This clearance is configured within the costmaps and navigation parameters to ensure the robot maintains a safe distance from obstacles, reducing collision risk and allowing smooth navigation even in narrow or cluttered environments.
+- Navigation and Path Planning
+For autonomous movement, we integrated the ROS navigation stack, which leverages global and local costmaps to support path planning and obstacle avoidance:
+  - Global costmap: Provides a broad, high-level overview of the environment, marking obstacles and free space across the entire mapped area. This enables strategic route planning, allowing the robot to find an optimal path from its current location to the goal.
+  - Local costmap: Focuses on the immediate surroundings of the robot and is updated in real time with sensor data (such as from LIDAR). It dynamically detects obstacles and supports reactive local avoidance maneuvers.
+  A critical component of our navigation system is clearance management — the configuration of safe distances between the robot’s planned path and nearby walls or obstacles. Proper clearance settings ensure that the robot maintains a safe buffer, reducing collision risks and enabling smooth navigation even in narrow or cluttered spaces.
+- Obstacle Detection and Avoidance
+Using LIDAR sensors and the costmap framework, the robot can detect obstacles dynamically and adjust its path accordingly to avoid collisions, ensuring robust operation in changing environments.
+- Control and Command Handling
+The system supports both manual teleoperation and fully autonomous control modes, allowing seamless switching between human-driven commands and autonomous navigation via the ROS move_base node.
 
-By combining real-time mapping, dynamic obstacle avoidance, route planning, and clearance management, our system enables the Limo robot to navigate efficiently and safely.
+- Software Development
+All software components and algorithm integrations were developed primarily in Python, leveraging its deep integration with ROS for sensor data processing, motion control, mapping, localization, route planning, obstacle avoidance, and clearance management.
 
-All software development was conducted primarily using Python, leveraging its strong integration with ROS for sensor data processing, motion control, mapping, localization, route planning, obstacle avoidance, and clearance management.
 #### Area Environment
 ![Whole Arena](image/Group Area.png)<br>
 In the arena, our group was assigned Plot 6, which measures 1330 mm (width) x 1500 mm (depth). We were tasked with designing an environment that not only offered visual appeal but also supported functional navigation for the Limo Robot. Our design was inspired by the Jewel Changi Airport's Canopy Park and the iconic Mastercard Canopy Bridge, both known for their lush greenery, immersive experiences, and suspended walkways.
