@@ -1,4 +1,4 @@
-# Portfoilo 
+# Portfolio 
 
 
 <h2 align="left">Education</h2>
