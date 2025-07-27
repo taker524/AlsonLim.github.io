@@ -1,9 +1,29 @@
 # First-Year Robotic System Student in SIT
 
 
-## Education
-- Diploma | System Engineering & Management | Republic Polytechnic (_March 2023_)
-- Cerificate in Higher Nitec | Offshore & Marine Engineering Design | ITE Central (_March 2017_)
+<h2 align="center">Education</h2>
+
+<div align="center">
+
+<table>
+  <tr>
+    <th>Qualification</th>
+    <th>Specialisation</th>
+    <th>Institution</th>
+  </tr>
+  <tr>
+    <td>Diploma</td>
+    <td>System Engineering & Management</td>
+    <td>Republic Polytechnic<br><em>(March 2023)</em></td>
+  </tr>
+  <tr>
+    <td>Certificate in Higher Nitec</td>
+    <td>Offshore & Marine Engineering Design</td>
+    <td>ITE Central<br><em>(March 2017)</em></td>
+  </tr>
+</table>
+
+</div>
 
 ## Project
 ### Limo Robot Navigation
